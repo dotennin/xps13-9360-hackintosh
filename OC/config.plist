@@ -40,17 +40,17 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-USBX.aml</string>
+				<string>SSDT-GPI0.aml</string>
+				<key>Path</key>
+				<string>SSDT-GPI0.aml</string>
 				<key>Enabled</key>
 				<true/>
-				<key>Path</key>
-				<string>SSDT-USBX.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-GPI0.aml</string>
+				<string>SSDT-EC-USBX.aml</string>
 				<key>Path</key>
-				<string>SSDT-GPI0.aml</string>
+				<string>SSDT-EC-USBX.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -1011,15 +1011,15 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>VerifyMsrE2.efi</string>
+				<string>DVMT.efi</string>
 				<key>Path</key>
-				<string>VerifyMsrE2.efi</string>
+				<string>DVMT.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Arguments</key>
 				<string></string>
 				<key>Name</key>
-				<string>VerifyMsrE2.efi</string>
+				<string>DVMT.efi</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1035,15 +1035,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT.efi</string>
+				<string>VerifyMsrE2.efi</string>
 				<key>Path</key>
-				<string>DVMT.efi</string>
+				<string>VerifyMsrE2.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Arguments</key>
 				<string></string>
 				<key>Name</key>
-				<string>DVMT.efi</string>
+				<string>VerifyMsrE2.efi</string>
 			</dict>
 		</array>
 	</dict>
