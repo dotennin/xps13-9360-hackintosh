@@ -5,7 +5,7 @@
 |:--------:|:------------:|:-----:|:-------:|:-------------:|
 | i7-7550u | Intel HD 620 | 8 GB  |  256 GB |   1920x1080   |
 
-Working:
+## Working:
 - CPU power management [841|1949 GeekBench5 score]
 - GPU Power management
 - Sleep/wake [no hibernate mode]
