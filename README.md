@@ -8,7 +8,7 @@
 ## Results to expect
 ### Working:
 - CPU power management [841|1949 GeekBench5 score]
-- GPU Power management
+- GPU Power management [4587|4015 GeekBench5 OpenCL|Metal score]
 - Sleep/wake [no hibernate mode]
 - Shutdown
 - Webcam with LED on-off switching properly working
