@@ -5,7 +5,8 @@
 |:--------:|:------------:|:-----:|:-------:|:-------------:|
 | i7-7550u | Intel HD 620 | 8 GB  |  256 GB |   1920x1080   |
 
-## Working:
+## Results to expect
+### Working:
 - CPU power management [841|1949 GeekBench5 score]
 - GPU Power management
 - Sleep/wake [no hibernate mode]
@@ -31,7 +32,7 @@
 - Retina / HiDPI scaled resolutions
 - USB-C Power Delivery battery charging (20V@1.5A minimum)
 
-## Not working
+### Not working
 - Airdrop (not confirmed)
 - External HDMI video+audio output
 
