@@ -47,9 +47,11 @@ sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayRes
 ```
 2. Run this command: sudo cp ./POST_INSTALL/DisplayProductID-1449.plist /System/Library/Displays/Contents/Resources/Overrides/DisplayVendorID-4d10/DisplayProductID-1449
 3. Reboot
-4. Install RDM(https://github.com/avibrazil/RDM) app and select a resolution among the ones with a yellow lightning icon next to it.
-5. Set RDM to autoboot in Preferences
-6. Enable SIP mode in recovery mode (Catilina or higher)
+4. Enable SIP mode in recovery mode (Catilina or higher)
+5. Run the following command this enable macOS HiDPI: 
+```
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
+```
 ### Hackintosh combojack support
 1. put ComboJack_Installer/VerbStub.kext in Clover/kexts/Other
 2. Run ComboJack_Installer/install.sh in terminal and reboot
@@ -57,3 +59,4 @@ sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayRes
 
 ## Credits
 - [Dell XPS 13 9360 on MacOS Sierra 10.12.x - LTS (Long-Term Support) Guide](https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141/)
+- [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
