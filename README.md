@@ -36,6 +36,14 @@
 - Airdrop (not confirmed)
 - External HDMI video+audio output
 
+## UEFI Variables
+DVMT.efi can be launched from OpenCore
+|Variable|Offset|Default value|Desired value|Comment|
+|:------:|:------:|:------:|:------:|:------:|
+|CFG Lock|	0x4de	|0x01 (Enabled)|	0x00 (Disabled)|	Disable CFG Lock to prevent MSR 0x02 errors on boot setup_var 0x4de 0x00|
+|DVMT Pre-allocation	|0x785	|0x01 (32M)|	0x02 (64M)|	Increase DVMT pre-allocated size to 64M setup_var 0x785 0x02|
+|DVMT Total Gfx Memory	|0x786|	0x02 (???M)|	0x03 (MAX)|	Increase total gfx memory limit to maximum setup_var 0x786 0x03|
+
 
 ## POST INSTALL
 ### Enable Retina / HiDPI scaled resolutions
@@ -60,3 +68,4 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi
 ## Credits
 - [Dell XPS 13 9360 on MacOS Sierra 10.12.x - LTS (Long-Term Support) Guide](https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141/)
 - [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
+- [XPS9360-macOS](https://github.com/the-darkvoid/XPS9360-macOS)
