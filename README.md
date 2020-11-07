@@ -65,6 +65,18 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi
 2. Run ComboJack_Installer/install.sh in terminal and reboot
 3. Done. When you attach a headphone there will be a popup asking about headphone type.
 
+### USB Ports Mapping
+* Table of Type and Dev Speed are listed below:
+
+|USB 2 (XHC)|	USB 3 (XHC)|	Thunderbolt 3 (TBTU)|	Dev Speed|
+|:---------:|:---------:|:---------:|:---------:|
+|HS01	|HS01		||12/480 Mbps|
+|HS02	|HS02		||12/480 Mbps|
+||SS01		||5 Gbps|
+||SS02		||5 Gbps|
+|||UB21	|5 Gbps|
+|||UB21	|5 Gbps|
+
 ## Credits
 - [Dell XPS 13 9360 on MacOS Sierra 10.12.x - LTS (Long-Term Support) Guide](https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141/)
 - [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
